@@ -13,6 +13,9 @@ def contact(request):
 def courses(request):
     return render(request, 'pages/courses.html')
 
+def adultos(request):
+    return render(request, 'pages/cursos/adultos_es.html')
+
 def team(request):
     return render(request, 'pages/team.html')
 

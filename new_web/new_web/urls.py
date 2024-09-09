@@ -26,6 +26,7 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path('courses/', views.courses, name='courses'),
+    path('courses/adultos/', views.adultos, name='adultos_es'),
     path('team/', views.team, name='team'),
     path('testimonial/', views.testimonial, name='testimonial'),
     path('404/', views.error404, name='error404'),

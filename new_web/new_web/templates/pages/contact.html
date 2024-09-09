@@ -40,7 +40,7 @@
                     <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
                     <div class="d-flex align-items-center mb-3">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
-                            <i class="fa fa-map-marker-alt text-white"></i>
+                            {% bs_icon 'geo-alt-fill' color='white' %}
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Office</h5>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="d-flex align-items-center mb-3">
                         <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
-                            <i class="fa fa-phone-alt text-white"></i>
+                             {% bs_icon 'phone-fill' color='white' %}
                         </div>
                         <div class="ms-3">
                             <h5 class="text-primary">Mobile</h5>
@@ -78,30 +78,30 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nombre">
+                                    <label for="name">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                                    <label for="email">Correo electrónico</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Asunto">
+                                    <label for="subject">Asunto</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Message</label>
+                                    <textarea class="form-control" placeholder="Deja un mensaje" id="message" style="height: 150px"></textarea>
+                                    <label for="message">Deja un mensaje</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Enviar mensaje</button>
                             </div>
                         </div>
                     </form>
